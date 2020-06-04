@@ -1,0 +1,71 @@
+
+.experienciaContainerPrincipal{
+    height: 540px;
+    margin: 100px 0;
+    background-color: #F6F8FF;
+    border-radius: 15px;
+}
+
+.experienciaContainerPrincipal__general{
+    display: flex;
+    justify-content: center;
+}
+
+.experienciaContainer{
+    align-items: center;
+}
+
+.experienciaContainer h3{
+    font-size: 32px;
+    color: #508293;
+}
+
+.experienciaContainer div{
+    margin: 18px;
+    height: 90px;
+    width: 90px;
+}
+
+.experienciaContainer__image{
+    margin: 18px auto !important;
+}
+
+.experienciaContainer__image img{
+    background-size: cover;
+}
+
+.experienciaContainer h4{
+    font-size: 18px;
+    color: #508293;
+    text-align: center;
+}
+
+.experienciaDetalle{
+    color: #122A6C;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.experienciaDetalle_izquiera{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #BBC6E3;
+}
+
+.experienciaDetalle_izquiera div{
+    margin-left: 0 50px;
+}
+
+.experienciaDetalle_izquiera span{
+    color: #CE691B;
+}
+
+.experienciaDetalle_derecha{
+   margin-top: 15px; 
+   padding-left: 50px;
+}
+
+.experienciaDetalle_derecha p:first-child{
+    font-size: 24px;
+    font-weight: bold;
+}

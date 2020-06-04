@@ -1,0 +1,38 @@
+
+.pannelContainer__img{
+    padding: 0;
+}
+
+.pannelContainer__img img{
+    width: 100%;
+}
+
+.pannelContainer__detalle{
+    background-image: url('../../assets/image/triangulo2x.png');
+    padding: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: #05184A;
+    display: flex;
+    align-items: center;
+}
+
+.pannelContainer__detalle-detalle{
+    padding: 0 75px;
+}
+
+.pannelContainer__detalle-detalle h2{
+    font-size: 48px;
+    margin-bottom: 55px;
+}
+
+.pannelContainer__detalle-detalle p{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 54px;
+}
+
+.pannelContainer__detalle-detalle span{
+    color: #CE691B;
+}

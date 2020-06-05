@@ -5,7 +5,8 @@ import './style/Experiencia.css'
 function Experiencia (){
     return(
         <div className='experienciaContainerPrincipal'>
-            <CabeceraDetalle />
+
+            <CabeceraDetalle titulo='Experiencia' detalle='Deloitte' url={require('../assets/image/Deloitte2x.png')}/>
 
             <div>
                 <div className='container-fluid experienciaDetalle'>

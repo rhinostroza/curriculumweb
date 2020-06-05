@@ -1,13 +1,12 @@
 import React from 'react'
-import logoDeloitte from '../assets/image/Deloitte2x.png'
 
-function CabeceraDetalle() {
+function CabeceraDetalle(props) {
     return(
         <div className='experienciaContainerPrincipal__general'>
             <div className='experienciaContainer'>
-                <h3>Experiencia</h3>
-                <div className='experienciaContainer__image'><img src={logoDeloitte} alt=""/> </div>
-                <h4>Deloitte</h4>
+                <h3>{props.titulo}</h3>
+                <div className='experienciaContainer__image'><img src={props.url} alt=""/> </div>
+                <h4>{props.detalle}</h4>
             </div>
         </div>
     );

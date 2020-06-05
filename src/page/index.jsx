@@ -3,6 +3,9 @@ import './Index.css'
 import Header from '../component/Header'
 import Pannel from '../component/Pannel'
 import Experiencia from '../component/Experiencia'
+import Curso from '../component/Curso'
+import CabeceraDetalle from '../component/CabeceraDetalle'
+import Certificacion from '../component/Certificacion'
 
 function Index() {
     return(
@@ -11,6 +14,11 @@ function Index() {
             <div className='principal_container'>
                 <Pannel />
                 <Experiencia />
+                <CabeceraDetalle titulo='Conocimiento' detalle='Platzi' url={require('../assets/image/Platzi2x.png')}/>
+                <Curso cursos = {require('../assets/cursos').default.frontend} titulo='Fontend'/>
+                <Curso cursos = {require('../assets/cursos').default.backend} titulo='Backend'/>
+                <Curso cursos = {require('../assets/cursos').default.otros} titulo='Otros'/>
+                <Certificacion />
             </div>
         </React.Fragment>
     )

@@ -1,0 +1,17 @@
+
+.certificacionContainerPrincipal{
+    height: 540px;
+    margin: 100px 0;
+    background-color: #F6F8FF;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+.certificacionContainerPrincipal__image{
+    display: flex;
+    justify-content: center;
+}
+
+.certificacionContainerPrincipal__image img{
+    border: 1px solid #BBC6E3;
+}

@@ -6,6 +6,7 @@ import Experiencia from '../component/Experiencia'
 import Curso from '../component/Curso'
 import CabeceraDetalle from '../component/CabeceraDetalle'
 import Certificacion from '../component/Certificacion'
+import Footer from '../component/Footer'
 
 function Index() {
     return(
@@ -20,6 +21,7 @@ function Index() {
                 <Curso cursos = {require('../assets/cursos').default.otros} titulo='Otros'/>
                 <Certificacion />
             </div>
+            <Footer />
         </React.Fragment>
     )
 }

@@ -2,10 +2,21 @@
 .cursosItem{
     display: flex;
     justify-content: center;
-    align-items: center;
-    transition-duration: .5s;
+    align-items: center;    
 }
 
 .cursosItem:hover{
-    transform: scale(1.5, 1.5);
+    animation: curso 2s;
+}
+
+@keyframes curso{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
 }

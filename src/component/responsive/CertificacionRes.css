@@ -2,7 +2,7 @@
 @media screen and (max-width: 768px){
 
     .certificacionContainerPrincipal{
-        height: 340px;
+        height: 500px;
     }
 
     .certificacionContainerPrincipal__image img{
@@ -12,16 +12,17 @@
 
 @media screen and (max-width: 568px){
 
+    .certificacionContainerPrincipal{
+        height: 80%;
+        margin-bottom: 30px;
+    }
+
     .certificacionContainerPrincipal__image img{
         width: 85%;
     }
 }
 
 @media screen and (max-width: 425px){
-
-    .certificacionContainerPrincipal{
-        height: 340px;
-    }
 
     .certificacionContainerPrincipal__image{
         margin-bottom: 20px;

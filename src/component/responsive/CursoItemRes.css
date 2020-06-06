@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 1024px){
+
+    .cursosItem img{
+        max-width: 8em;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .cursosItem img{
+        max-width: 8em;
+    }
+}

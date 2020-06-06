@@ -1,0 +1,17 @@
+
+@media screen and (max-width: 1024px){
+
+    .titulo_curso{
+        padding-left: 10px;
+        font-size: 30px;
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .titulo_curso{
+        font-size: 28px;
+        margin: 35px auto;
+    }
+}

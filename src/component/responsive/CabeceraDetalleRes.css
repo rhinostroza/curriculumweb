@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px){
+
+    .experienciaContainerPrincipal{
+        margin: 80px 0;
+    }
+
+    .experienciaContainer h3{
+        font-size: 30px;
+    }
+
+    .experienciaContainer__image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 16px auto !important;
+    }
+
+    .experienciaContainer__image img{
+        max-width: 80px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .experienciaContainer h3{
+        font-size: 28px;
+    }
+
+    .experienciaContainer__image{
+        margin: 14px auto !important;
+    }
+
+    .experienciaContainer__image{
+        max-height: 60px;
+        max-width: 60px;
+    }
+
+    .experienciaContainer__image img{
+        max-height: 60px;
+        max-width: 60px;
+    }
+}

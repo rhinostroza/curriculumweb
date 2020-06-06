@@ -3,4 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: .5s;
+}
+
+.cursosItem:hover{
+    transform: scale(1.5, 1.5);
 }

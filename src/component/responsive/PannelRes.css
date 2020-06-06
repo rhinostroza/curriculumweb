@@ -1,0 +1,118 @@
+
+@media screen and (max-width: 1234px){
+    .pannelContainer__detalle-detalle h2{
+        font-size: 2.3em;
+        margin-bottom: 30px;
+    }
+
+    .pannelContainer__detalle-detalle p{
+        font-size: 1.8em;
+        /* line-height: 1.6em; */
+    }   
+}
+
+@media screen and (max-width: 1148px){
+
+    .pannelContainer__detalle-detalle h2{
+        font-size: 2.5em;
+        margin-bottom: 30px;
+    }
+
+    .pannelContainer__detalle-detalle p{
+        font-size: 1.5em;
+        line-height: 1.6em;
+    }   
+}
+
+@media screen and (max-width: 1024px){
+
+    .pannelContainer__detalle-detalle{
+        padding: 0 50px;
+    }  
+}
+
+@media screen and (max-width: 920px){
+
+    .pannelContainer__detalle-detalle h2{
+        font-size: 2.1em;
+        /* margin-bottom: 25px; */
+    }
+
+    .pannelContainer__detalle-detalle p{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 835px){
+    .pannelContainer__detalle-detalle h2{
+        font-size: 1.9em;
+    }
+
+    .pannelContainer__detalle-detalle p{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .pannelContainer__detalle{
+        height: 80vw;
+    }
+
+    .pannelContainer__detalle-detalle{
+        height: 80vw;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pannelContainer__detalle-detalle h2{
+        font-size: 2.5em;
+        margin-bottom: 25px;
+    }
+
+    .pannelContainer__detalle-detalle p{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 575px){
+
+    .pannelContainer__detalle-detalle{
+        padding: 0 20px;
+    }
+
+    .pannelContainer__detalle-detalle h2{
+        font-size: 2.5em;
+        margin-bottom: 35px;
+    }
+
+    .pannelContainer__detalle-detalle p{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 454px){
+
+    .pannelContainer__detalle-detalle h2{
+        font-size: 2.0em;
+        margin-bottom: 25px;
+    }
+
+    .pannelContainer__detalle-detalle p{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 388px){
+
+    .pannelContainer__detalle-detalle h2{
+        font-size: 1.7em;
+        margin-bottom: 25px;
+    }
+
+    .pannelContainer__detalle-detalle p{
+        font-size: .9em;
+    }
+}

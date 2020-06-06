@@ -1,17 +1,18 @@
 import React from 'react'
 import CabeceraDetalle from '../component/CabeceraDetalle'
 import './style/Experiencia.css'
+import './responsive/ExperienciaRes.css'
 
 function Experiencia (){
     return(
-        <div className='experienciaContainerPrincipal'>
+        <div className='experienciaContainerPrincipal' id="Experiencia">
 
             <CabeceraDetalle titulo='Experiencia' detalle='Deloitte' url={require('../assets/image/Deloitte2x.png')}/>
 
             <div>
                 <div className='container-fluid experienciaDetalle'>
                     <div className='row'>
-                        <div className='col-6 experienciaDetalle_izquiera'>
+                        <div className='col-md-6 col-sm-12 experienciaDetalle_izquiera'>
                             <div>
                                 <p>Cuento con
                                 <span> 2 años y medio </span>
@@ -19,7 +20,7 @@ function Experiencia (){
                                 </p>
                             </div>
                         </div>
-                        <div className='col-6 experienciaDetalle_derecha'>
+                        <div className='col-md-6 col-sm-12 experienciaDetalle_derecha'>
                             <div>
                                 <p>Realizando...</p>
                                 <p>Evaluación de controles generales de TI</p>

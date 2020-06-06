@@ -15,10 +15,12 @@ function Index() {
             <div className='principal_container'>
                 <Pannel />
                 <Experiencia />
-                <CabeceraDetalle titulo='Conocimiento' detalle='Platzi' url={require('../assets/image/Platzi2x.png')}/>
-                <Curso cursos = {require('../assets/cursos').default.frontend} titulo='Fontend'/>
-                <Curso cursos = {require('../assets/cursos').default.backend} titulo='Backend'/>
-                <Curso cursos = {require('../assets/cursos').default.otros} titulo='Otros'/>
+                <div id='conocimiento'>
+                    <CabeceraDetalle titulo='Conocimiento' detalle='Platzi' url={require('../assets/image/Platzi2x.png')}/>
+                    <Curso cursos = {require('../assets/cursos').default.frontend} titulo='Fontend'/>
+                    <Curso cursos = {require('../assets/cursos').default.backend} titulo='Backend'/>
+                    <Curso cursos = {require('../assets/cursos').default.otros} titulo='Otros'/>
+                </div>
                 <Certificacion />
             </div>
             <Footer />

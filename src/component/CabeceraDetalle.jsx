@@ -1,4 +1,6 @@
 import React from 'react'
+import './style/CabeceraDetalle.css'
+import './responsive/CabeceraDetalleRes.css'
 
 function CabeceraDetalle(props) {
     return(

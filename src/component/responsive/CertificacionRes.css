@@ -19,6 +19,7 @@
 
     .certificacionContainerPrincipal__image img{
         width: 85%;
+        height: auto;
     }
 }
 

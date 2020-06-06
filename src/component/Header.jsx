@@ -3,27 +3,39 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './style/Header.css';
 import './responsive/HeaderRes.css'
 
+function handle_MostrarMenu (){
+  const menu = document.getElementById('menu');
+  if(menu.classList.contains('is-active')){
+    menu.classList.remove('is-active');
+  }else{
+    menu.classList.add('is-active');
+  }
+}
+
 function Header() {
     return(
-        <header>
-        <div className='container-fluid header'>
-          <div className='row header__row'>
-            <div className='col-md-6 col-sm-12 header__logo'>
-              <h1>Raphael Hinostroza</h1>
-            </div>
-            <div className='col-md-6 col-sm-12 header__nav'>
-              <nav>
-                <ul>
-                  <li><a href='#Experiencia'>Experiencia</a></li>
-                  <li><a href='#conocimiento'>Conocimiento</a></li>
-                  <li><a href='#certificacion'>Certificaciones</a></li>
-                  <li><a href='/'>Portafolio</a></li>
-                </ul>
-              </nav>
+      <React.Fragment>
+          <i className='icon-menu burger-button' onClick={handle_MostrarMenu}></i>
+          <header>
+          <div className='container-fluid header'>
+            <div className='row header__row'>
+              <div className='col-md-6 col-sm-12 header__logo'>
+                <h1>Raphael Hinostroza</h1>
+              </div>
+              <div className='col-md-6 col-sm-12 header__nav'>
+                <nav>
+                  <ul id='menu'>
+                    <li onClick={handle_MostrarMenu}><a href='#Experiencia'>Experiencia</a></li>
+                    <li onClick={handle_MostrarMenu}><a href='#conocimiento'>Conocimiento</a></li>
+                    <li onClick={handle_MostrarMenu}><a href='#certificacion'>Certificaciones</a></li>
+                    <li onClick={handle_MostrarMenu}><a href='/'>Portafolio</a></li>
+                  </ul>
+                </nav>
+              </div>
             </div>
           </div>
-        </div>
-      </header>
+        </header>
+      </React.Fragment>
     );
 }
 

@@ -62,7 +62,7 @@
 @media screen and (max-width: 426px){
 
     .experienciaContainerPrincipal{
-        min-height: 500px;
+        min-height: 520px;
     }
 
     .experienciaDetalle_izquiera{
@@ -78,10 +78,10 @@
      }
 }
 
-@media screen and (max-width: 357px){
+@media screen and (max-width: 358px){
 
     .experienciaContainerPrincipal{
-        min-height: 560px;
+        min-height: 570px;
     }
 }
 

@@ -22,6 +22,10 @@
         display: block;
     }
 
+    .header_icono{
+        display: inline;
+    }
+
     /* .header{
         height: 200px;
     } */
@@ -32,7 +36,7 @@
     }
 
     .header__logo h1{
-        margin: 10px 0;
+        margin: 15px 0 0 0;
     }
 
     .header__nav {
@@ -64,7 +68,7 @@
     }
     
     .header__nav ul li{
-        margin: 5px;
+        margin: 20px 0;
     }
 
     .header__nav a{

@@ -15,7 +15,7 @@ function Pannel() {
                         <h2>Raphael es ...</h2>
                         <p>Ingeniero de Sistemas de Información de titulado en la UPC. 
                         <span> Amante de la tecnología </span>y del 
-                        <span>conocimiento,</span> aprendiendo continuamente
+                        <span> conocimiento, </span> aprendiendo continuamente
                         </p>
                     </div>                 
                 </div>

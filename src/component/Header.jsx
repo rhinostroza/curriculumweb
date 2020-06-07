@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import './style/Fonts.css'
 import './style/Header.css';
 import './responsive/HeaderRes.css'
 
@@ -25,10 +26,18 @@ function Header() {
               <div className='col-md-6 col-sm-12 header__nav'>
                 <nav>
                   <ul id='menu'>
-                    <li onClick={handle_MostrarMenu}><a href='#Experiencia'>Experiencia</a></li>
-                    <li onClick={handle_MostrarMenu}><a href='#conocimiento'>Conocimiento</a></li>
-                    <li onClick={handle_MostrarMenu}><a href='#certificacion'>Certificaciones</a></li>
-                    <li onClick={handle_MostrarMenu}><a href='/'>Portafolio</a></li>
+                    <li onClick={handle_MostrarMenu}>
+                      <i className='icon-experiencia header_icono'></i>    
+                      <a href='#Experiencia'>Experiencia</a></li>
+                    <li onClick={handle_MostrarMenu}>
+                      <i className='icon-curso header_icono'></i>
+                      <a href='#conocimiento'>Conocimiento</a>
+                    </li>
+                    <li onClick={handle_MostrarMenu}>
+                      <i className='icon-certificacion header_icono'></i>
+                      <a href='#certificacion'>Certificaciones</a>
+                    </li>
+                    {/* <li onClick={handle_MostrarMenu}><a href=''>Portafolio</a></li> */}
                   </ul>
                 </nav>
               </div>

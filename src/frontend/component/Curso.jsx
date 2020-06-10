@@ -1,5 +1,5 @@
 import React from 'react';
-import CursoItem from './CursoItem'
+import CursoItem from './CursoItem.jsx'
 import './style/Curso.css'
 import './responsive/CursoRes.css'
 

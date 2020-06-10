@@ -1,5 +1,5 @@
 import React from 'react';
-import Index from './page/index'
+import Index from './page/index.jsx'
 
 function App() {
   return (

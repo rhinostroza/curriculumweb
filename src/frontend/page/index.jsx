@@ -1,12 +1,12 @@
 import React from 'react'
 import './Index.css'
-import Header from '../component/Header'
-import Pannel from '../component/Pannel'
-import Experiencia from '../component/Experiencia'
-import Curso from '../component/Curso'
-import CabeceraDetalle from '../component/CabeceraDetalle'
-import Certificacion from '../component/Certificacion'
-import Footer from '../component/Footer'
+import Header from '../component/Header.jsx'
+import Pannel from '../component/Pannel.jsx'
+import Experiencia from '../component/Experiencia.jsx'
+import Curso from '../component/Curso.jsx'
+import CabeceraDetalle from '../component/CabeceraDetalle.jsx'
+import Certificacion from '../component/Certificacion.jsx'
+import Footer from '../component/Footer.jsx'
 
 function Index() {
     return(

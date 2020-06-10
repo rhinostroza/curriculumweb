@@ -1,5 +1,5 @@
 import React from 'react'
-import CabeceraDetalle from '../component/CabeceraDetalle'
+import CabeceraDetalle from '../component/CabeceraDetalle.jsx'
 import './style/Experiencia.css'
 
 function Experiencia (){

@@ -17,7 +17,7 @@ module.exports = {
     entry,
     mode: process.env.ENV,
     output: {
-        path: path.resolve(__dirname,'assets'),
+        path: path.resolve(__dirname,'src/server/public'),
         filename: isDev ? 'assets/app.js' : 'assets/app-[hash].js',
         publicPath: '/',
     },
@@ -27,6 +27,24 @@ module.exports = {
     optimization: {
         minimize: true,
         minimizer: [new TerserPlugin()],
+        splitChunks: {
+            chunks: 'async',
+            name: true,
+            cacheGroups: {
+                vendors: {
+                    name: 'vendors',
+                    chunks: 'all',
+                    reuseExistingChunk: true,
+                    priority: 1,
+                    filename: isDev ? 'assets/vendor.js': 'assets/vendor-[hash].js',
+                    enforce: true,
+                    test(module, chunks){
+                        const name = module.nameForCondition && module.nameForCondition();
+                        return chunks.some(chunk => chunk.name !== 'vendors' && /[\\/]node_modules[\\/]/.test(name))
+                    }
+                }
+            }
+        }
     },
     module: {
         rules: [
@@ -48,12 +66,12 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|gif|jpg)$/,
+                test: /\.(png|gif|jpg|svg|woff|ttf|eot)$/,
                 use: [
                     {
-                        loader: 'file-loader',
+                        'loader': 'file-loader',
                         options: {
-                            name: 'assets/[hash].[ext]',
+                            name: 'assets/image/[name].[ext]',
                         }
                     }
                 ]
@@ -74,7 +92,8 @@ module.exports = {
         isDev ? () => {}:
         new ManifestPlugin(),
         new MiniCssExtractPlugin({
-            filename: isDev ? 'assets/app.css':'assts/app-[hash].css'
+            filename: isDev ? 'assets/app.css':'assets/app-[hash].css',
+            chunkFilename: isDev ? 'assets/vendor.css': 'assets/vendor-[hash].css',
         }),
     ]
 };

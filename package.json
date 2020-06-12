@@ -7,13 +7,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start:dev": "nodemon src/server",
-    "start": "react-scripts start",
+    "start:react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "webpack": "webpack-dev-server --config webpack.config.js",
     "build:prod": "webpack-cli --config webpack.config.js",
-    "start:prod": "node src/server/index.js"
+    "start": "node src/server/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"

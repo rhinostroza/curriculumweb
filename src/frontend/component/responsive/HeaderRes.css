@@ -77,6 +77,12 @@
         margin-bottom: .5em;
     }    
 }
+@media screen and (max-width: 600px){
+    .header__nav ul{
+        left: -70vw;
+        width: 70vw;
+    }
+}
 
 @media screen and (max-width: 500px)
 {

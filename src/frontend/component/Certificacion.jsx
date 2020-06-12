@@ -10,7 +10,7 @@ function Certificacion (){
             <CabeceraDetalle titulo='Certificación' url={require('../assets/image/Certificaciones2x.png')}/>
 
             <div className='certificacionContainerPrincipal__image'>
-                <img src={require('../assets/image/Iso.png')} alt=""/>               
+                <img src={require('../assets/image/certificacion.png')} alt=""/>               
             </div>
         </div>
     )

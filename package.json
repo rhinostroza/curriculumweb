@@ -8,11 +8,11 @@
     "deploy": "gh-pages -d build",
     "start:dev": "nodemon src/server",
     "start:react": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "build:react": "react-scripts build",
+    "test:react": "react-scripts test",
+    "eject:react": "react-scripts eject",
     "webpack": "webpack-dev-server --config webpack.config.js",
-    "build:prod": "webpack-cli --config webpack.config.js",
+    "build": "webpack-cli --config webpack.config.js",
     "start": "node src/server/index.js"
   },
   "eslintConfig": {

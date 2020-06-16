@@ -13,7 +13,9 @@
 }
 
 .certificacionContainerPrincipal__image img{
+    font-size: 425px;
     border: 1px solid #BBC6E3;
     margin-bottom: 50px;
     width: 425px;
+    height: 0.70705em;
 }
